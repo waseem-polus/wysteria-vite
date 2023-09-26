@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { WuiApp } from '@willoui/design' 
-import './index.css'
+import React from "react"
+import ReactDOM from "react-dom/client"
+import App from "./App.jsx"
+import { WuiApp } from "@willoui/design" 
+import "./index.css"
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <WuiApp>
-      <App />
-    </WuiApp>
-  </React.StrictMode>,
+ReactDOM.createRoot(document.getElementById("root")).render(
+	<React.StrictMode>
+		<WuiApp>
+			<App />
+		</WuiApp>
+	</React.StrictMode>,
 )
